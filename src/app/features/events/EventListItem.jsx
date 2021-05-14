@@ -19,7 +19,7 @@ export default function EventListItem({ event, selectEvent, deleteEvent }) {
             <Segment>
         <span>
           <Icon name='clock' /> {event.date}
-            <Icon name='marker' /> {event.venue}
+            <Icon name='marker' /> {event.place}
         </span>
             </Segment>
             <Segment secondary>
@@ -34,7 +34,7 @@ export default function EventListItem({ event, selectEvent, deleteEvent }) {
                     content='Delete'
                 />
                 <Button
-                    as={ Link} to={'/createEvent'}
+                    as={ Link} to={'/createEvent/${event.id}'}
                     color='teal'
                     floated='right'
                     content='View'
