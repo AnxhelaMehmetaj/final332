@@ -25,7 +25,7 @@ export default function EventDashboard() {
                 <EventList events={events}  deleteEvent={handleDeleteEvent} />
             </Grid.Column>
             <Grid.Column width={6}>
-               <h2> Events</h2>
+
             </Grid.Column>
         </Grid>
     );
