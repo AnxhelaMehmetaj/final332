@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Segment, Header, Form, Button } from 'semantic-ui-react';
 import cuid from 'cuid';
+import {Link} from "react-router-dom";
 
 export default function EventForm({
                                       setFormOpen,
@@ -14,7 +15,7 @@ export default function EventForm({
         category: '',
         description: '',
         city: '',
-        venue: '',
+        place: '',
         date: '',
     };
 
@@ -81,9 +82,9 @@ export default function EventForm({
                 <Form.Field>
                     <input
                         type='text'
-                        placeholder='Venue'
-                        name='venue'
-                        value={values.venue}
+                        placeholder='place'
+                        name='place'
+                        value={values.place}
                         onChange={(e) => handleInputChange(e)}
                     />
                 </Form.Field>
@@ -98,7 +99,7 @@ export default function EventForm({
                 </Form.Field>
                 <Button type='submit' floated='right' positive content='Submit' />
                 <Button
-                    onClick={() => setFormOpen(false)}
+                    as={Link} to='/events'
                     type='submit'
                     floated='right'
                     content='Cancel'

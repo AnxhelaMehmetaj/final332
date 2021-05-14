@@ -1,6 +1,6 @@
 import React from 'react';
 import { Segment, Item, Icon,  Button } from 'semantic-ui-react';
-
+import {Link} from "react-router-dom";
 
 export default function EventListItem({ event, selectEvent, deleteEvent }) {
     return (
@@ -34,7 +34,7 @@ export default function EventListItem({ event, selectEvent, deleteEvent }) {
                     content='Delete'
                 />
                 <Button
-                    onClick={() => selectEvent(event)}
+                    as={ Link} to={'/createEvent'}
                     color='teal'
                     floated='right'
                     content='View'
