@@ -7,8 +7,8 @@ export default function NavBar({setFormOpen}) {
         <Menu inverted fixed='top'>
             <Container>
                 <Menu.Item as={NavLink} to='/' header>
-                    <img src="/assets/logo.png" alt="logo" style={{marginRight: 15}}/>
-                    Re-vents
+
+                    NJIT events
                 </Menu.Item>
                 <Menu.Item as={NavLink} to='/events' name='Events' />
                 <Menu.Item>
