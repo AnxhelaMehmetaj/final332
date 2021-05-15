@@ -34,7 +34,7 @@ export default function EventListItem({ event, selectEvent, deleteEvent }) {
                     content='Delete'
                 />
                 <Button
-                    as={ Link} to={'/createEvent/${event.id}'}
+                    as={ Link} to={'/createEvent'}
                     color='teal'
                     floated='right'
                     content='View'

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Grid } from 'semantic-ui-react';
 import EventList from './EventList';
-import EventForm from "./EventForm";
+
 import { sampleData} from "../../api/sampleData";
 
 export default function EventDashboard() {

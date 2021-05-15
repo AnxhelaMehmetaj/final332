@@ -1,8 +1,7 @@
 Contributed Anxhela Mehmetaj
 
-<img src="public/assets/afterdeletion.PNG">
-<img src="public/assets/events1.PNG">
-<img src="public/assets/events.PNG">
-<img src="public/assets/events3.PNG">
-<img src="public/assets/events4.PNG">
+<img src="public/assets/final1.PNG">
+<img src="public/assets/final2.PNG">
+<img src="public/assets/final4.PNG">
+<img src="public/assets/final5.PNG">
 

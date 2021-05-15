@@ -10,7 +10,7 @@ export default function NavBar({setFormOpen}) {
         <Menu inverted fixed='top'>
             <Container>
                 <Menu.Item as={NavLink} to='/' header>
-                    NJIT events
+                    Homepage
                 </Menu.Item>
                 <Menu.Item as={NavLink} to='/events' name='Events' />
                 {authenticated && (
